@@ -1,0 +1,156 @@
+/* Reset default padding, margin, and box-sizing for all elements */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Set a default font for the entire HTML document */
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Styling for the body */
+body {
+  /* Uncomment below to use a solid background */
+  /* background: #eee; */
+
+  /* Set a background pattern from an external URL */
+  background-image: url("https://www.transparenttextures.com/patterns/blu-stripes.png");
+  padding: 0 16px; /* Add horizontal padding */
+}
+
+/* Header section styling */
+header {
+  background-color: purple; /* Set background color */
+  margin: auto -16px; /* Extend header beyond page padding */
+  padding: 16px 32px; /* Add spacing inside the header */
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3); /* Add shadow effect */
+}
+
+/* Header title styling */
+header h1 {
+  color: #fff; /* White text */
+  font-family: "McLaren", cursive; /* Use a cursive font */
+  font-weight: 200; /* Set font weight */
+}
+
+/* Footer section styling */
+footer {
+  position: absolute; /* Position at the bottom */
+  text-align: center; /* Center align text */
+  bottom: 0; /* Stick footer to the bottom */
+  width: 90%; /* Set width */
+  height: 2.5rem; /* Define height */
+}
+
+/* Footer text styling */
+footer p {
+  color: purple; /* Set text color */
+}
+
+/* Note container styling */
+.note {
+  background: #fff; /* White background */
+  border-radius: 7px; /* Rounded corners */
+  box-shadow: 0 2px 5px #ccc; /* Add shadow */
+  padding: 10px; /* Add padding inside the note */
+  width: 240px; /* Set width */
+  margin: 16px; /* Add margin for spacing */
+  float: left; /* Align notes to the left */
+}
+
+/* Note title styling */
+.note h1 {
+  font-size: 1.1em; /* Set font size */
+  margin-bottom: 6px; /* Add space below */
+}
+
+/* Note content styling */
+.note p {
+  font-size: 1.1em; /* Set font size */
+  margin-bottom: 10px; /* Add space below */
+  white-space: pre-wrap; /* Preserve whitespace formatting */
+  word-wrap: break-word; /* Prevent text overflow */
+}
+
+/* Note delete and edit button styling */
+.note button {
+  position: relative; /* Position relative to the note */
+  float: right; /* Align button to the right */
+  margin-right: 10px; /* Add right margin */
+  color: purple; /* Set icon color */
+  border: none; /* Remove border */
+  width: 36px; /* Set width */
+  height: 36px; /* Set height */
+  cursor: pointer; /* Change cursor to pointer */
+  outline: none; /* Remove outline */
+}
+
+/* Input field inside a note for editing */
+.note input {
+  width: 100%; /* Full width */
+  height: 30px; /* Set height */
+  padding: 10px; /* Add padding */
+  font-size: 1.2rem; /* Set font size */
+  margin-bottom: 5px; /* Add space below */
+  font-weight: bold; /* Make text bold */
+  border-radius: 12px; /* Round the corners */
+}
+
+/* Textarea for editing note content */
+.note textarea {
+  width: 100%; /* Full width */
+  height: 100px; /* Set height */
+  padding: 10px; /* Add padding */
+  font-size: 1.2rem; /* Set font size */
+  margin-bottom: 5px; /* Add space below */
+  border-radius: 7px; /* Rounded corners */
+  border: 2px solid purple; /* Set border color */
+}
+
+/* Form container for creating a new note */
+form.create-note {
+  position: relative; /* Position relative */
+  width: 480px; /* Set width */
+  margin: 30px auto 20px auto; /* Center form */
+  background: #fff; /* Set background color */
+  padding: 15px; /* Add padding inside */
+  border-radius: 7px; /* Rounded corners */
+  box-shadow: 0 1px 5px rgb(138, 137, 137); /* Add shadow */
+}
+
+/* Input and textarea styling inside the form */
+form.create-note input,
+form.create-note textarea {
+  width: 100%; /* Full width */
+  border: none; /* Remove border */
+  padding: 4px; /* Add padding */
+  outline: none; /* Remove outline */
+  font-size: 1.2em; /* Set font size */
+  font-family: inherit; /* Inherit font from body */
+  resize: none; /* Prevent resizing */
+}
+
+/* Button styling for adding a new note */
+form.create-note button {
+  position: absolute; /* Absolute position */
+  right: 18px; /* Move button to the right */
+  bottom: -18px; /* Position below the form */
+  background: purple; /* Set background color */
+  color: yellowgreen; /* Set text color */
+  border: none; /* Remove border */
+  border-radius: 50%; /* Make button circular */
+  width: 36px; /* Set width */
+  height: 36px; /* Set height */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); /* Add shadow */
+  cursor: pointer; /* Change cursor to pointer */
+  outline: none; /* Remove outline */
+}
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 500px) {
+  form.create-note {
+    width: 280px; /* Reduce form width */
+  }
+}
