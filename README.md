@@ -35,7 +35,7 @@ ToDoList/
 ## ⚙️ Installation & Setup  
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/your-username/ToDoList.git
+   git clone https://github.com/MALLIKHARJUNCHILUKURI-02/to_do_list_react.git
    cd ToDoList
    ```
 2. Install dependencies:  
