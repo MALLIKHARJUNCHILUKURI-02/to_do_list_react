@@ -55,6 +55,7 @@ ToDoList/
 > Add some screenshots here to showcase your app.
 ![app Image](image.png)
 
+[Watch the Demo Video](https://drive.google.com/file/d/1F4SLX6BxUx9juifFGvhV8tWMmT_K5I3G/view?usp=sharing)
 ## 🔮 Future Enhancements  
 🚀 Add user authentication to sync notes across devices.  
 🚀 Implement categories or tags for better organization.  
