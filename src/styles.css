@@ -37,13 +37,21 @@ header h1 {
 
 /* Footer section styling */
 footer {
-  position: absolute; /* Position at the bottom */
   text-align: center; /* Center align text */
   bottom: 0; /* Stick footer to the bottom */
   width: 90%; /* Set width */
   height: 2.5rem; /* Define height */
+  margin-top: 250px;
 }
 
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.Notesclass{
+  height: auto;
+}
 /* Footer text styling */
 footer p {
   color: purple; /* Set text color */
@@ -147,7 +155,14 @@ form.create-note button {
   cursor: pointer; /* Change cursor to pointer */
   outline: none; /* Remove outline */
 }
-
+.time{
+  color: #FFD700; /* Gold color for time */
+    font-weight: bold;
+}
+.date {
+  color: #00FFFF; /* Cyan color for date */
+  font-weight: bold;
+}
 /* Responsive styling for smaller screens */
 @media screen and (max-width: 500px) {
   form.create-note {

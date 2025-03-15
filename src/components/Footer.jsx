@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer>
       {/* Display copyright text with the current year */}
-      <p>Copyright ⓒ {year}</p>
+      <p>Copyright ⓒ {year} | All Rights Reserved</p>
     </footer>
   );
 }
